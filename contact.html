@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me Live Code</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./articles.html">Articles</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <h1>Contact Us</h1>
+    <p>Please fill out the form below to get in touch with us.</p>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here.." required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>You can also reach us at:</p>
+    <ul>
+      <li>123 Main St.</li>
+      <li>Anytown, USA 12345</li>
+      <li>Phone: 555-123-4567</li>
+      <li>Email: info@yourwebsite.com</li>
+    </ul>
+  </body>
+</html>
